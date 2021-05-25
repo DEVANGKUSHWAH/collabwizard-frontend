@@ -1,0 +1,184 @@
+.heroContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10rem;
+}
+
+.heroContainer .heroText {
+  width: 50vw;
+  padding: 2rem;
+}
+
+.heroContainer .heroText .heading {
+  font-weight: bolder;
+}
+
+.heroContainer .heroImage img {
+  width: 400px;
+  height: 250px;
+}
+
+.heroContainer .heroButtonContainer {
+  margin: 2rem 0rem;
+  background-color: #3BA4FB;
+  color: white;
+  padding: .6rem;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: .2rem;
+}
+
+.heroContainer .heroButtonContainer .text {
+  text-align: center;
+}
+
+.services .serviceHeading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.services .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0rem 10rem;
+}
+
+.services .cards .card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  margin: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 5px 10px 1px #e6e3e6;
+  box-shadow: 0px 5px 10px 1px #e6e3e6;
+  border-radius: .4rem;
+}
+
+.services .cards .card .heading {
+  font-weight: bold;
+  padding: 0rem 1rem;
+}
+
+.services .cards .card .content {
+  padding: 0rem 1rem;
+}
+
+.services .cards .card .cardImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .cards .card .cardImage img {
+  width: 200px;
+  height: 250px;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features .featureHeading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  font-size: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features .featureContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem;
+}
+
+.features .featureContainer .featureText {
+  width: 50vw;
+  padding: 2rem;
+}
+
+.features .featureContainer .featureText .heading {
+  font-weight: bolder;
+}
+
+.features .featureContainer .featureText .content {
+  padding: 1rem 0;
+}
+
+.features .featureContainer .featureImage img {
+  width: 30vw;
+  height: 250px;
+}
+
+.gettingStarted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10rem;
+}
+
+.gettingStarted .startedHeading {
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.gettingStarted .startedImage img {
+  width: 30vw;
+  height: 250px;
+}
+
+.gettingStarted .startedButtonContainer {
+  margin: 2rem;
+  background-color: #3BA4FB;
+  color: white;
+  padding: .7rem .8rem;
+  border: none;
+  outline: none;
+  border-radius: .2rem;
+}
+
+.gettingStarted .startedButtonContainer .text {
+  text-align: center;
+}
+/*# sourceMappingURL=LandingPage.module.css.map */

@@ -1,0 +1,27 @@
+@import "dependencies/mixins";
+@import "dependencies/variables";
+@import "common/card.scss";
+
+.page {
+  padding: 3rem;
+}
+
+@include md-down {
+  .page {
+    padding: 2rem;
+  }
+}
+
+@include sm-down {
+  .page {
+    padding: 1.25rem;
+  }
+}
+.container {
+  width: 100%;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
